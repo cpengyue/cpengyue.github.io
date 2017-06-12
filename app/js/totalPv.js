@@ -22,10 +22,11 @@ function getTotalPV() {
 function setTotalPV(){
     $.ajax({
         url:"http://cloud.bmob.cn/4aaccee0942edb8e/setTotalPV",
+        method:"post",
         dataType:"jsonp",
         data:"",
         jsonp: "callback",
-        success:function(data){
+        success:function(result){
         }
     });
 }
