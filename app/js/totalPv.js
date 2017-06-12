@@ -17,16 +17,15 @@ function getTotalPV() {
             //更新次数
             setTotalPV();
         }
-    })
+    });
 }
-
 function setTotalPV(){
     $.ajax({
         url:"http://cloud.bmob.cn/4aaccee0942edb8e/setTotalPV",
-        dataType:'jsonp',
-        data:'',
-        jsonp:'callback',
+        dataType:"jsonp",
+        data:"",
+        jsonp: "callback",
         success:function(data){
         }
-    })
+    });
 }
