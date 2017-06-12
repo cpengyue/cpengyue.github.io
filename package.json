@@ -1,0 +1,22 @@
+{
+  "name": "cpengyue.github.io",
+  "version": "1.0.0",
+  "description": "First Sites",
+  "main": "webpack.config.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cpengyue/cpengyue.github.io.git"
+  },
+  "author": "cpy",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/cpengyue/cpengyue.github.io/issues"
+  },
+  "homepage": "https://github.com/cpengyue/cpengyue.github.io#readme",
+  "devDependencies": {
+    "jquery": "^3.2.1"
+  }
+}
